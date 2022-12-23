@@ -1,0 +1,98 @@
+body {
+  margin: 0 100px;
+
+  font-family: 'JetBrains Mono', monospace;
+
+  min-height: 100vh;
+
+  background:#2C2B3D;
+}
+.page {
+  width: 1080px;
+  margin: 0 auto 0;
+  padding-top: 70px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0px 100px 0;
+  padding: 10px;
+  width: 1000px;
+  height: 30px;
+}
+#logo1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 0 2px;
+}
+#padlocklogo {
+  align-items: center;
+  height: 19px;
+  margin: 7px 0;
+}
+#logo2 {
+  text-align: center;
+  font-size: 24px;
+  padding: 0 600px 0 0;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#padlocklogo {
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 65px;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  Width: 1100px;
+  Height: 300px;
+  margin: 0 0px 100px 0;
+  color:#FFFFFF;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+  width: 700px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color:#C2C2C2;
+}
+section {
+  margin: 60px 0 170px 80px;
+}
+span {
+  color:#00BFA6;
+}
+hr {
+  width: 600px;
+  height: 0;
+  border: 1px solid #00BFA6;
+}
+footer {
+  text-align: center;
+  color: #FFFFFF;
+}
+#padlock {
+  width: 51px;
+  height: 62px;
+  left: 20px;
+  bottom: 20px;
+  position: fixed;
+}
